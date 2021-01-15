@@ -1,0 +1,6 @@
+rules:
+- expr: 'totale > 0'
+  name: '1'
+
+- expr: 'totale > 0'
+  name: 'NN0: delta casi non negativo'
