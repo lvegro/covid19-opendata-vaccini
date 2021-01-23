@@ -28,7 +28,7 @@ jobs:
         upstream_repository: italia/covid19-opendata-vaccini
         upstream_branch: master
         target_branch: lvegro-featuredq-1
-        git_pull_args: --ff-only --allow-unrelated-histories                  # optional arg use, defaults to simple 'pull'
+       # git_pull_args:               # optional arg use, defaults to simple 'pull'
         github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that require authentication
 
     # Step 3: Display a message if 'sync' step had new commits (simple test)
