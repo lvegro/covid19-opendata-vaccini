@@ -26,7 +26,7 @@ jobs:
       uses: aormsby/Fork-Sync-With-Upstream-action@v2.1
       with:
         upstream_repository: italia/covid19-opendata-vaccini
-        upstream_branch: main
+        upstream_branch: master
         target_branch: lvegro-featuredq-1
         git_pull_args: --ff-only                    # optional arg use, defaults to simple 'pull'
         github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that require authentication
